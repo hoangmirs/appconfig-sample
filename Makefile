@@ -14,3 +14,8 @@ codebase:
 
 codebase/fix:
 	rubocop -a
+
+build:
+	bin/docker-prepare
+	docker-compose build
+	docker-compose push web
