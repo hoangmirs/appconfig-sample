@@ -11,6 +11,6 @@ fi
 # bundle exec rails db:migrate
 
 echo "=====Starting fetching config====="
-curl "http://localhost:2772/applications/zfdxfbn/environments/mrjp3ni/configurations/test_data"
+curl "http://localhost:2772/applications/zfdxfbn/environments/mrjp3ni/configurations/nmm1wh8"
 
 bundle exec rails s -p $PORT -b 0.0.0.0
