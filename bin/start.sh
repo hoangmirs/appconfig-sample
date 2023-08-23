@@ -9,10 +9,8 @@ fi
 
 # Run pending migrations (if any) and start rails
 # bundle exec rails db:migrate
-echo "=====Starting fetching google.com====="
-curl "http://google.com"
 
 echo "=====Starting fetching config====="
-# curl "http://localhost:2772/applications/zfdxfbn/environments/mrjp3ni/configurations/test_data"
+curl "http://localhost:2772/applications/zfdxfbn/environments/mrjp3ni/configurations/test_data"
 
 bundle exec rails s -p $PORT -b 0.0.0.0
